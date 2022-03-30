@@ -72,7 +72,8 @@ h4 {
     float: none;
 }
 
-.section-heading, .history-heading{
+.section-heading,
+.history-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
@@ -360,6 +361,14 @@ button[type="submit"] {
     columns: #fafafa;
     background-color: #e84610;
 }
+
+/* ---------------------------------------------- Map */
+
+div#map {
+    min-height: 360px;
+}
+
+
 
 /* ---------------------------------------------- Media Queries */
 
